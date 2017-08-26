@@ -379,6 +379,10 @@ class Qtile(object):
         path = whereis("xterm")
         return self._spawn_window(path)
 
+    def testXcalc(self):
+        path = whereis("xcalc")
+        return self._spawn_window(path)
+
     def groupconsistency(self):
         groups = self.c.groups()
         screens = self.c.screens()

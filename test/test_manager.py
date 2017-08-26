@@ -471,7 +471,7 @@ def test_float_max_min_combo(qtile):
     # change to 2 col stack
     self.c.next_layout()
     assert len(self.c.layout.info()["stacks"]) == 2
-    self.testXterm()
+    self.testXcalc()
     self.testXeyes()
 
     assert self.c.group.info()['focus'] == 'xeyes'
