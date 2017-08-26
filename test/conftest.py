@@ -375,10 +375,6 @@ class Qtile(object):
         path = whereis("gkrellm")
         return self._spawn_window(path)
 
-    def testXterm(self):
-        path = whereis("xterm")
-        return self._spawn_window(path)
-
     def testXcalc(self):
         path = whereis("xcalc")
         return self._spawn_window(path)
