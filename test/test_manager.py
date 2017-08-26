@@ -373,10 +373,10 @@ def test_inspect_xeyes(qtile):
 
 @manager_config
 @no_xinerama
-def test_inspect_xterm(qtile):
+def test_inspect_xclock(qtile):
     self = qtile
 
-    self.testXterm()
+    self.testXclock()
     assert self.c.window.inspect()["wm_class"]
 
 
